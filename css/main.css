@@ -1,0 +1,39 @@
+@layer reset {
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: unset;
+	}
+
+	button,
+	input,
+	textarea,
+	select {
+		font: inherit;
+	}
+
+	img,
+	picture,
+	svg,
+	canvas {
+		display: block;
+		max-inline-size: 100%;
+		block-size: auto;
+	}
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 10px;
+}
+
+.container,
+header {
+	outline: 1px solid grey;
+	max-width: 600px;
+	margin: 0 auto;
+}
